@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #141414;
+  background-color: #0f172a;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,7 +20,7 @@
 }
 
 .box {
-  background-color: #171717;
+  background-color: #05222a;
   border-radius: 8px;
   border: 1px solid #272727;
   padding: 24px;
@@ -109,6 +109,8 @@ a:focus-visible {
   background-color: rgba(59, 121, 246, 0.15);
   color: #2870ff;
 }
+
+
 .button-primary:hover {
   background-color: rgba(59, 121, 246, 0.25);
   border-color: rgba(59, 121, 246, 0.35);

@@ -71,3 +71,7 @@
   align-items: center;
   gap: 10px;
 }
+.size6 {
+  width: 20px;
+  height: 20px;
+}
