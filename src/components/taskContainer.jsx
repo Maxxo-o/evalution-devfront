@@ -4,12 +4,9 @@ import { TaskInput } from "./taskInput/taskInput";
 import { TaskList } from "./taskList/taskList";
 import { useTasks } from "../hooks/useTasks";
 
-// Ce composant est utilisé pour afficher l'intégralité de la fonctionalité de Tache.
 export const TaskContainer = () => {
 
-
-  // responsabilité unique 
-  // + single source of truth
+  // inspiré du TP révision
   const { tasks, addTask, checkTask, deleteTask, completedTasksCount } = useTasks();
 
   return (
